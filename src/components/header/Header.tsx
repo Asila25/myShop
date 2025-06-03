@@ -1,4 +1,4 @@
-import  { useState } from "react";
+// import  { useState } from "react";
 import { Link, NavLink} from "react-router-dom";
 import {
   HeaderButton,
@@ -12,27 +12,27 @@ import {
 
 const Header = () => {
 //   const location = useLocation();
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
 
   const navLink = (
     <>
       <li>
-        <StyledNavLink to="#" onClick={() => setMenuOpen(false)}>
+        <StyledNavLink to="#" >
           <p>Phone</p>
         </StyledNavLink>
       </li>
       <li>
-        <StyledNavLink to="#" onClick={() => setMenuOpen(false)}>
+        <StyledNavLink to="#" >
           <p>Electronics</p>
         </StyledNavLink>
       </li>
       <li>
-        <StyledNavLink to="#" onClick={() => setMenuOpen(false)}>
+        <StyledNavLink to="#" >
           <p>Laptops</p>
         </StyledNavLink>
       </li>
       <li>
-        <StyledNavLink to="#" onClick={() => setMenuOpen(false)}>
+        <StyledNavLink to="#" >
           <p>Accessories</p>
         </StyledNavLink>
       </li>
